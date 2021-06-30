@@ -45,3 +45,39 @@ v1.3.6
 Web3 is a collection of javascript libraries that allow an application to interact with an ethereum network. It is being used extensively in this application to 
 encapsulate much of the logic around the etherum blocchain. For example, it is used to convert wei to ethereum and back, it is used to encapsulate logic of big numbers, 
 and also allows us to interact with Metamask.
+
+#### How To Run Tests:
+
+```
+$ truffle develop
+$ truffle test
+```
+
+
+#### How To Run Front End:
+
+I use the Live Server Visual Studio extension. Install the extension, select the index.html file, and click 'Go-Live' in the bottom right
+
+#### How To Use the Front End:
+
+I have already set the wallet addresses the following items below. These are from my personal Metamask, you can change this if you would like.
+1. Current Ownser ID
+2. Farmer ID
+3. Distributor ID
+4. Retailer ID
+5. Distributor ID
+
+You will also need to enter a SKU, UPC, Farm Name, Farm Info, and Product Price in the fields on the website. You can also enter data for Farm Information, latitude, and longitude if you would like.
+
+Once this is done, you can invoke the workflow at any time by clicking the following buttons IN ORDER.
+1. Harvest
+2. Process
+3. Pack
+4. For Sale
+5. Buy
+6. Sell
+7. Receive
+8. Purchase
+
+At any time, you can use the 'Fetch Data 1' and 'Fatch Data 2' buttons to get data from the blockchain.
+
