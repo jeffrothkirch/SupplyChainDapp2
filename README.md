@@ -35,5 +35,13 @@ v14.16.1
 #### Truffle Version:
 v5.3.9
 
+Truffle provides much of the functionality possible of this app. Truffle facilitates testing, deployment, and development. Furthermore, it helps to 
+provide a fully integrated test environment so that it does not need to be done manually. It is used in this project specifically to create a development 
+enironment so that I can test the application functionality. It is also used to run the test cases.
+
 #### Web3 Version:
 v1.3.6
+
+Web3 is a collection of javascript libraries that allow an application to interact with an ethereum network. It is being used extensively in this application to 
+encapsulate much of the logic around the etherum blocchain. For example, it is used to convert wei to ethereum and back, it is used to encapsulate logic of big numbers, 
+and also allows us to interact with Metamask.
