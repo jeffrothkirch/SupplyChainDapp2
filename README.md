@@ -22,3 +22,18 @@ $ npm build
 #### Contract
 
 0xd248575517C76D61Fd6d5e4505DC9fe57fca4B2a
+
+
+## Other Rubric Requirements:
+
+#### Is IPFS Used:
+No
+
+#### Node Version:
+v14.16.1
+
+#### Truffle Version:
+v5.3.9
+
+#### Web3 Version:
+v1.3.6
